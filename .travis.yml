@@ -1,6 +1,9 @@
-sudo: required
+#sudo: required
+os: linux
 
 language: generic
+
+dist: xenial
 
 services:
   - docker
